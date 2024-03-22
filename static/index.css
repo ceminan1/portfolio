@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*background info*/
+  body {
+    background-color: rgb(243, 173, 88);   
+    text-align: center; 
+    }
+
+  /*h1 (1st header) style*/
+  h1 {
+    margin-top: 10mm;
+    margin-bottom: 3mm;
+    font-size: 15mm;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+  }
+
+
+
+
+  
+
+  @media only screen and (max-width: 1010px) {
+  /*Iphone adjustment for h1 smaller screens*/
+  .iphoneX {
+      font-size: 15mm;
+  }
+  
+  /* to fit the table to whole screen of smaller screens */
+  #ipbody {
+    width: 99%;
+  }
+
+  footer h4 {
+    font-size: .6em;
+  }
+  }
+
+
+
+  @media only screen and (max-width: 817px) {
+    /*Iphone adjustment for h1 smaller screens*/
+  .iphoneX {
+    font-size: 11mm;
+}
+
+ /*to adjust the badges with smaller screen*/
+ #ibadge {
+  margin-right: 0mm;
+}
+
+/*adjusting the badge for Red Hat for the smaller screens*/
+#ibadgeR {
+  margin-right: 0mm;
+  width: 240px;
+  height: 130px;
+}
+
+/*adjusting the last row of the table for small screen*/
+#ILrow {
+  padding-left: 0mm;
+  margin-left: 0mm;
+}
+
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    /*Iphone adjustment for h1 smaller screens*/
+  .iphoneX {
+    font-size: 7.5mm;
+}
+  }
+
+
+
+
+  /*to center the table*/
+  .center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  /*Table style*/
+  table {  
+    table-layout: fixed;
+    /*text-align: left; */
+    width: 1000px;
+    background-color: rgb(241, 221, 185);
+  }
+
+  /*create borders and color and add styles*/
+  table, th, td {
+    border-color: rgb(20, 20, 14);
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
+  }
+
+  /*table header style; to adjust the left padding and text alignment*/
+  th {
+    text-align: left; 
+    padding-left: 5mm;
+  }
+  
+  /*class tr1 to adjust the font of row 1 of the table*/
+  .tr1 {
+    color: teal;
+    font-size: 7mm;
+  }
+
+  /*class heading to adjust the font of row 1 of the table*/
+  .heading {
+    color: teal;
+    font-size: 9mm;
+    text-align: center;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /*To edit the last row of the table*/
+  .Last-row {
+    color: teal;
+    /*text-align: left;*/
+    font-size: 6mm;
+    
+  }
+
+  /*To style the badges for k8*/
+  .CKA {
+      width: 200px;
+      height: 200px;
+      margin-right: 22mm;
+  }
+
+  /*style of the redhat badge*/
+  .redhat {
+    width: 300px;
+    height: 150px;
+    margin-right: 8mm;
+    margin-bottom: 8mm;
+  }
+
+  /*header 4 style*/
+  h4 {
+      font-size: 4mm;
+      margin-top: 2mm;
+  }
+
+
+  .linkedin {
+      width: 150px;
+      height: 50px;
+      margin-top: 2mm;
+  }
+
+  .website {
+    width: 150px;
+    height: 50px;
+    margin-top: 2mm;
+  }
+
+  .git {
+    width: 150px;
+    height: 50px;
+    margin-top: 2mm;
+  }
+
+  header {
+    background-color: rgb(223, 153, 68); 
+    color: rgb(24, 58, 67);
+    padding: .1rem;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: rgb(223, 153, 68); 
+    color: rgb(24, 58, 67);
+    text-align: center;
+    padding: .4rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: fantasy;
+    font-weight: bolder;
+  }

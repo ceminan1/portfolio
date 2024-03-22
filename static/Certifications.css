@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*background info*/
+  body {
+    background-color: rgb(243, 173, 88);   
+    text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    /*certification image size*/
+  .cert {
+    width: 800px;
+    height: 600px;
+    border: 5px outset blue;
+    }
+  
+    .certR {
+    width: 800px;
+    height: 600px;
+    border: 5px outset red;
+    }
+
+    /*Header 1 style*/
+    h1 {
+      margin-top: 10mm;
+      margin-bottom: 6mm;
+      font-size: 11mm;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 900;
+      color: black;
+  }
+
+  h2 {
+    margin-top: 2mm;
+  }
+
+  .verify {
+    border: .1mm outset blue;
+    background-color: cornsilk;
+    text-decoration-color: 5px greenyellow;
+    color: rgb(206, 4, 4);
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+    /*To adjust header 1 when screen is smallers*/
+    h1 {
+      font-size: 5mm;
+      font-weight: 600;
+    }
+  
+    h2 {
+      font-size: 4mm;
+    }
+  
+    /*smaller screen image adjustment*/
+    #img {
+      width: 375px;
+      height: auto;
+      margin-left: 0mm;
+      padding: 0mm;
+      }
+
+      footer h4 {
+    font-size: .6em;
+  }
+    }
+  
+    header {
+      background-color: rgb(223, 153, 68); 
+      color: rgb(24, 58, 67);
+      padding: .1rem;
+      text-align: center;
+    }
+    
+    footer {
+      background-color: rgb(223, 153, 68); 
+      color: rgb(24, 58, 67);
+      text-align: center;
+      padding: .4rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-family: fantasy;
+      font-weight: bolder;
+    }
